@@ -8,6 +8,6 @@ management:
       enabled: true
 spring:
   profiles:
-    active: prod
+    active: setup
 server:
   port: 9527
