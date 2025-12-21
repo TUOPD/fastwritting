@@ -1,0 +1,9 @@
+spring:
+  autoconfigure:
+    exclude:
+      # 禁用 MyBatis-Plus 自动配置
+      - com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration
+      # 禁用 数据库数据源 自动配置
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      # (可选) 禁用 事务管理器 自动配置
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration

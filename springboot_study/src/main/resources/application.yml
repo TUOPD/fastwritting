@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: restart
+  endpoint:
+    restart:
+      enabled: true
+spring:
+  profiles:
+    active: prod
+server:
+  port: 9527
