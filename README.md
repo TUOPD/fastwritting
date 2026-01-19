@@ -1,5 +1,21 @@
 This is a personal knowledge base deployed locally, based on the Vue3 and SpringBoot3 frameworks. It includes an integrated whiteboard and rich text editor.
 You need to create two tables with DDL before using it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 CREATE TABLE `articlenote` (
   `id` bigint NOT NULL,
